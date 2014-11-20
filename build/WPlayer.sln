@@ -1,0 +1,298 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Windows81", "Windows81", "{E394FA81-A84B-4C35-8023-862D509D1AB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WindowsPhone81", "WindowsPhone81", "{2193AAA3-C798-4108-9D96-58705EB060F0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WinRTShared", "WinRTShared", "{2C6581F1-A43F-47B4-B37F-B93D23193E20}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPlayerCommon", "WPlayerCommon", "{29E18FDB-FA86-4A07-8B07-5B23989BBCD1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WPlayerCommon.Shared", "WinRTShared\WPlayerCommon\WPlayerCommon.Shared\WPlayerCommon.Shared.vcxitems", "{EE3F585C-A2F7-42E7-B195-EE524EFAFD98}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WPlayerCommon.Windows", "WinRTShared\WPlayerCommon\WPlayerCommon.Windows\WPlayerCommon.Windows.vcxproj", "{055DE68D-397E-4344-9DF9-E057DF521D3E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WPlayerCommon.WindowsPhone", "WinRTShared\WPlayerCommon\WPlayerCommon.WindowsPhone\WPlayerCommon.WindowsPhone.vcxproj", "{06685605-C801-49F8-97B3-7C4EF92C321A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FFmpegWrapper", "FFmpegWrapper", "{5630D0AC-FE63-4FB0-A156-75185648C199}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FFmpegWrapper.Shared", "WinRTShared\FFmpegWrapper\FFmpegWrapper.Shared\FFmpegWrapper.Shared.vcxitems", "{FA48D526-824F-48BE-8E6E-0E88894B3DC4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FFmpegWrapper.Windows", "WinRTShared\FFmpegWrapper\FFmpegWrapper.Windows\FFmpegWrapper.Windows.vcxproj", "{503EDD19-FA99-4C51-94BC-8722A44F14CC}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "FFmpegWrapper.WindowsPhone", "WinRTShared\FFmpegWrapper\FFmpegWrapper.WindowsPhone\FFmpegWrapper.WindowsPhone.vcxproj", "{5C93DE4C-522A-4BC4-85A3-F0F8DA82C725}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPlayerByteStreamSource", "WPlayerByteStreamSource", "{2980309B-3B5A-48F1-A802-847AD53D807A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WPlayerByteStreamSource.Shared", "WinRTShared\WPlayerByteStreamSource\WPlayerByteStreamSource.Shared\WPlayerByteStreamSource.Shared.vcxitems", "{36D2162B-6B84-42D1-BF61-B92685A21ADE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WPlayerByteStreamSource.Windows", "WinRTShared\WPlayerByteStreamSource\WPlayerByteStreamSource.Windows\WPlayerByteStreamSource.Windows.vcxproj", "{D085C495-3253-4890-BB33-65A5A07905E2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WPlayerByteStreamSource.WindowsPhone", "WinRTShared\WPlayerByteStreamSource\WPlayerByteStreamSource.WindowsPhone\WPlayerByteStreamSource.WindowsPhone.vcxproj", "{536B0DFD-FF34-4C6E-A377-B987CCDA6CE8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPlayerUIShared", "WPlayerUIShared", "{34E64444-5701-4B46-B174-C20AAD9A7613}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WPlayerUIShared.Shared", "WinRTShared\WPlayerUIShared\WPlayerUIShared.Shared\WPlayerUIShared.Shared.shproj", "{7F4E321F-459B-4927-AE3D-A4B57000E274}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPlayerUI.WindowsPhone", "WindowsPhone81\WPlayerUI.WindowsPhone\WPlayerUI.WindowsPhone.csproj", "{89CBB92E-7E52-4BB8-8C85-5C5F385BA0AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPlayerUI.Windows", "Windows81\WPlayerUI.Windows\WPlayerUI.Windows.csproj", "{2E0BE23D-8D34-4D20-815C-5781C65FB2C0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPlayerVideoCodec", "WPlayerVideoCodec", "{6FE0C298-22FD-4F1D-886D-D72BF9E33AF9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WPlayerVideoCodec.Shared", "WinRTShared\WPlayerVideoCodec\WPlayerVideoCodec.Shared\WPlayerVideoCodec.Shared.vcxitems", "{125F5593-0A67-4484-BF43-568036FC59C6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WPlayerVideoCodec.Windows", "WinRTShared\WPlayerVideoCodec\WPlayerVideoCodec.Windows\WPlayerVideoCodec.Windows.vcxproj", "{A7E1FDC6-EA86-4729-A345-E263F9BFA7B2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{055DE68D-397E-4344-9DF9-E057DF521D3E} = {055DE68D-397E-4344-9DF9-E057DF521D3E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WPlayerVideoCodec.WindowsPhone", "WinRTShared\WPlayerVideoCodec\WPlayerVideoCodec.WindowsPhone\WPlayerVideoCodec.WindowsPhone.vcxproj", "{DAD98F54-6A26-4976-A323-815A5956B29C}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		WinRTShared\WPlayerByteStreamSource\WPlayerByteStreamSource.Shared\WPlayerByteStreamSource.Shared.vcxitems*{d085c495-3253-4890-bb33-65a5a07905e2}*SharedItemsImports = 4
+		WinRTShared\WPlayerUIShared\WPlayerUIShared.Shared\WPlayerUIShared.Shared.projitems*{7f4e321f-459b-4927-ae3d-a4b57000e274}*SharedItemsImports = 13
+		WinRTShared\WPlayerCommon\WPlayerCommon.Shared\WPlayerCommon.Shared.vcxitems*{ee3f585c-a2f7-42e7-b195-ee524efafd98}*SharedItemsImports = 9
+		WinRTShared\WPlayerUIShared\WPlayerUIShared.Shared\WPlayerUIShared.Shared.projitems*{89cbb92e-7e52-4bb8-8c85-5c5f385ba0af}*SharedItemsImports = 4
+		WinRTShared\WPlayerVideoCodec\WPlayerVideoCodec.Shared\WPlayerVideoCodec.Shared.vcxitems*{a7e1fdc6-ea86-4729-a345-e263f9bfa7b2}*SharedItemsImports = 4
+		WinRTShared\WPlayerCommon\WPlayerCommon.Shared\WPlayerCommon.Shared.vcxitems*{06685605-c801-49f8-97b3-7c4ef92c321a}*SharedItemsImports = 4
+		WinRTShared\WPlayerCommon\WPlayerCommon.Shared\WPlayerCommon.Shared.vcxitems*{055de68d-397e-4344-9df9-e057df521d3e}*SharedItemsImports = 4
+		WinRTShared\WPlayerByteStreamSource\WPlayerByteStreamSource.Shared\WPlayerByteStreamSource.Shared.vcxitems*{36d2162b-6b84-42d1-bf61-b92685a21ade}*SharedItemsImports = 9
+		WinRTShared\WPlayerUIShared\WPlayerUIShared.Shared\WPlayerUIShared.Shared.projitems*{2e0be23d-8d34-4d20-815c-5781c65fb2c0}*SharedItemsImports = 4
+		WinRTShared\FFmpegWrapper\FFmpegWrapper.Shared\FFmpegWrapper.Shared.vcxitems*{5c93de4c-522a-4bc4-85a3-f0f8da82c725}*SharedItemsImports = 4
+		WinRTShared\WPlayerByteStreamSource\WPlayerByteStreamSource.Shared\WPlayerByteStreamSource.Shared.vcxitems*{536b0dfd-ff34-4c6e-a377-b987ccda6ce8}*SharedItemsImports = 4
+		WinRTShared\FFmpegWrapper\FFmpegWrapper.Shared\FFmpegWrapper.Shared.vcxitems*{503edd19-fa99-4c51-94bc-8722a44f14cc}*SharedItemsImports = 4
+		WinRTShared\WPlayerVideoCodec\WPlayerVideoCodec.Shared\WPlayerVideoCodec.Shared.vcxitems*{dad98f54-6a26-4976-a323-815a5956b29c}*SharedItemsImports = 4
+		WinRTShared\WPlayerVideoCodec\WPlayerVideoCodec.Shared\WPlayerVideoCodec.Shared.vcxitems*{125f5593-0a67-4484-bf43-568036fc59c6}*SharedItemsImports = 9
+		WinRTShared\FFmpegWrapper\FFmpegWrapper.Shared\FFmpegWrapper.Shared.vcxitems*{fa48d526-824f-48be-8e6e-0e88894b3dc4}*SharedItemsImports = 9
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 17
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs18
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = WinRTShared\\FFmpegWrapper\\FFmpegWrapper.Shared\\FFmpegWrapper.Shared.vcxitems
+		SccProjectTopLevelParentUniqueName1 = WPlayer.sln
+		SccProjectName1 = WinRTShared/FFmpegWrapper/FFmpegWrapper.Shared
+		SccLocalPath1 = WinRTShared\\FFmpegWrapper\\FFmpegWrapper.Shared
+		SccProjectUniqueName2 = WinRTShared\\FFmpegWrapper\\FFmpegWrapper.Windows\\FFmpegWrapper.Windows.vcxproj
+		SccProjectTopLevelParentUniqueName2 = WPlayer.sln
+		SccProjectName2 = WinRTShared/FFmpegWrapper/FFmpegWrapper.Windows
+		SccLocalPath2 = WinRTShared\\FFmpegWrapper\\FFmpegWrapper.Windows
+		SccProjectUniqueName3 = WinRTShared\\FFmpegWrapper\\FFmpegWrapper.WindowsPhone\\FFmpegWrapper.WindowsPhone.vcxproj
+		SccProjectTopLevelParentUniqueName3 = WPlayer.sln
+		SccProjectName3 = WinRTShared/FFmpegWrapper/FFmpegWrapper.WindowsPhone
+		SccLocalPath3 = WinRTShared\\FFmpegWrapper\\FFmpegWrapper.WindowsPhone
+		SccProjectUniqueName4 = WinRTShared\\WPlayerByteStreamSource\\WPlayerByteStreamSource.Shared\\WPlayerByteStreamSource.Shared.vcxitems
+		SccProjectTopLevelParentUniqueName4 = WPlayer.sln
+		SccProjectName4 = WinRTShared/WPlayerByteStreamSource/WPlayerByteStreamSource.Shared
+		SccLocalPath4 = WinRTShared\\WPlayerByteStreamSource\\WPlayerByteStreamSource.Shared
+		SccProjectUniqueName5 = WinRTShared\\WPlayerByteStreamSource\\WPlayerByteStreamSource.Windows\\WPlayerByteStreamSource.Windows.vcxproj
+		SccProjectTopLevelParentUniqueName5 = WPlayer.sln
+		SccProjectName5 = WinRTShared/WPlayerByteStreamSource/WPlayerByteStreamSource.Windows
+		SccLocalPath5 = WinRTShared\\WPlayerByteStreamSource\\WPlayerByteStreamSource.Windows
+		SccProjectUniqueName6 = WinRTShared\\WPlayerCommon\\WPlayerCommon.Shared\\WPlayerCommon.Shared.vcxitems
+		SccProjectTopLevelParentUniqueName6 = WPlayer.sln
+		SccProjectName6 = WinRTShared/WPlayerCommon/WPlayerCommon.Shared
+		SccLocalPath6 = WinRTShared\\WPlayerCommon\\WPlayerCommon.Shared
+		SccProjectUniqueName7 = WinRTShared\\WPlayerCommon\\WPlayerCommon.Windows\\WPlayerCommon.Windows.vcxproj
+		SccProjectTopLevelParentUniqueName7 = WPlayer.sln
+		SccProjectName7 = WinRTShared/WPlayerCommon/WPlayerCommon.Windows
+		SccLocalPath7 = WinRTShared\\WPlayerCommon\\WPlayerCommon.Windows
+		SccProjectUniqueName8 = WinRTShared\\WPlayerCommon\\WPlayerCommon.WindowsPhone\\WPlayerCommon.WindowsPhone.vcxproj
+		SccProjectTopLevelParentUniqueName8 = WPlayer.sln
+		SccProjectName8 = WinRTShared/WPlayerCommon/WPlayerCommon.WindowsPhone
+		SccLocalPath8 = WinRTShared\\WPlayerCommon\\WPlayerCommon.WindowsPhone
+		SccProjectUniqueName9 = WinRTShared\\WPlayerByteStreamSource\\WPlayerByteStreamSource.WindowsPhone\\WPlayerByteStreamSource.WindowsPhone.vcxproj
+		SccProjectTopLevelParentUniqueName9 = WPlayer.sln
+		SccProjectName9 = WinRTShared/WPlayerByteStreamSource/WPlayerByteStreamSource.WindowsPhone
+		SccLocalPath9 = WinRTShared\\WPlayerByteStreamSource\\WPlayerByteStreamSource.WindowsPhone
+		SccProjectUniqueName10 = WindowsPhone81\\WPlayerUI.WindowsPhone\\WPlayerUI.WindowsPhone.csproj
+		SccProjectTopLevelParentUniqueName10 = WPlayer.sln
+		SccProjectName10 = WindowsPhone81/WPlayerUI.WindowsPhone
+		SccLocalPath10 = WindowsPhone81\\WPlayerUI.WindowsPhone
+		SccProjectUniqueName11 = Windows81\\WPlayerUI.Windows\\WPlayerUI.Windows.csproj
+		SccProjectTopLevelParentUniqueName11 = WPlayer.sln
+		SccProjectName11 = Windows81/WPlayerUI.Windows
+		SccLocalPath11 = Windows81\\WPlayerUI.Windows
+		SccProjectUniqueName12 = WinRTShared\\WPlayerUIShared\\WPlayerUIShared.Shared\\WPlayerUIShared.Shared.shproj
+		SccProjectTopLevelParentUniqueName12 = WPlayer.sln
+		SccProjectName12 = WinRTShared/WPlayerUIShared/WPlayerUIShared.Shared
+		SccLocalPath12 = WinRTShared\\WPlayerUIShared\\WPlayerUIShared.Shared
+		SccProjectUniqueName13 = WinRTShared\\WPlayerUIShared\\WPlayerUIShared.Shared\\WPlayerUIShared.Shared.projitems
+		SccProjectTopLevelParentUniqueName13 = WPlayer.sln
+		SccProjectName13 = WinRTShared/WPlayerUIShared/WPlayerUIShared.Shared
+		SccLocalPath13 = WinRTShared\\WPlayerUIShared\\WPlayerUIShared.Shared
+		SccProjectUniqueName14 = WinRTShared\\WPlayerVideoCodec\\WPlayerVideoCodec.Shared\\WPlayerVideoCodec.Shared.vcxitems
+		SccProjectTopLevelParentUniqueName14 = WPlayer.sln
+		SccProjectName14 = WinRTShared/WPlayerVideoCodec/WPlayerVideoCodec.Shared
+		SccLocalPath14 = WinRTShared\\WPlayerVideoCodec\\WPlayerVideoCodec.Shared
+		SccProjectUniqueName15 = WinRTShared\\WPlayerVideoCodec\\WPlayerVideoCodec.Windows\\WPlayerVideoCodec.Windows.vcxproj
+		SccProjectTopLevelParentUniqueName15 = WPlayer.sln
+		SccProjectName15 = WinRTShared/WPlayerVideoCodec/WPlayerVideoCodec.Windows
+		SccLocalPath15 = WinRTShared\\WPlayerVideoCodec\\WPlayerVideoCodec.Windows
+		SccProjectUniqueName16 = WinRTShared\\WPlayerVideoCodec\\WPlayerVideoCodec.WindowsPhone\\WPlayerVideoCodec.WindowsPhone.vcxproj
+		SccProjectTopLevelParentUniqueName16 = WPlayer.sln
+		SccProjectName16 = WinRTShared/WPlayerVideoCodec/WPlayerVideoCodec.WindowsPhone
+		SccLocalPath16 = WinRTShared\\WPlayerVideoCodec\\WPlayerVideoCodec.WindowsPhone
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|ARM = Debug|ARM
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|ARM = Release|ARM
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{055DE68D-397E-4344-9DF9-E057DF521D3E}.Debug|ARM.ActiveCfg = Debug|ARM
+		{055DE68D-397E-4344-9DF9-E057DF521D3E}.Debug|ARM.Build.0 = Debug|ARM
+		{055DE68D-397E-4344-9DF9-E057DF521D3E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{055DE68D-397E-4344-9DF9-E057DF521D3E}.Debug|Win32.Build.0 = Debug|Win32
+		{055DE68D-397E-4344-9DF9-E057DF521D3E}.Debug|x64.ActiveCfg = Debug|x64
+		{055DE68D-397E-4344-9DF9-E057DF521D3E}.Debug|x64.Build.0 = Debug|x64
+		{055DE68D-397E-4344-9DF9-E057DF521D3E}.Release|ARM.ActiveCfg = Release|ARM
+		{055DE68D-397E-4344-9DF9-E057DF521D3E}.Release|ARM.Build.0 = Release|ARM
+		{055DE68D-397E-4344-9DF9-E057DF521D3E}.Release|Win32.ActiveCfg = Release|Win32
+		{055DE68D-397E-4344-9DF9-E057DF521D3E}.Release|Win32.Build.0 = Release|Win32
+		{055DE68D-397E-4344-9DF9-E057DF521D3E}.Release|x64.ActiveCfg = Release|x64
+		{055DE68D-397E-4344-9DF9-E057DF521D3E}.Release|x64.Build.0 = Release|x64
+		{06685605-C801-49F8-97B3-7C4EF92C321A}.Debug|ARM.ActiveCfg = Debug|ARM
+		{06685605-C801-49F8-97B3-7C4EF92C321A}.Debug|ARM.Build.0 = Debug|ARM
+		{06685605-C801-49F8-97B3-7C4EF92C321A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{06685605-C801-49F8-97B3-7C4EF92C321A}.Debug|Win32.Build.0 = Debug|Win32
+		{06685605-C801-49F8-97B3-7C4EF92C321A}.Debug|x64.ActiveCfg = Debug|Win32
+		{06685605-C801-49F8-97B3-7C4EF92C321A}.Release|ARM.ActiveCfg = Release|ARM
+		{06685605-C801-49F8-97B3-7C4EF92C321A}.Release|ARM.Build.0 = Release|ARM
+		{06685605-C801-49F8-97B3-7C4EF92C321A}.Release|Win32.ActiveCfg = Release|Win32
+		{06685605-C801-49F8-97B3-7C4EF92C321A}.Release|Win32.Build.0 = Release|Win32
+		{06685605-C801-49F8-97B3-7C4EF92C321A}.Release|x64.ActiveCfg = Release|Win32
+		{503EDD19-FA99-4C51-94BC-8722A44F14CC}.Debug|ARM.ActiveCfg = Debug|ARM
+		{503EDD19-FA99-4C51-94BC-8722A44F14CC}.Debug|ARM.Build.0 = Debug|ARM
+		{503EDD19-FA99-4C51-94BC-8722A44F14CC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{503EDD19-FA99-4C51-94BC-8722A44F14CC}.Debug|Win32.Build.0 = Debug|Win32
+		{503EDD19-FA99-4C51-94BC-8722A44F14CC}.Debug|x64.ActiveCfg = Debug|x64
+		{503EDD19-FA99-4C51-94BC-8722A44F14CC}.Debug|x64.Build.0 = Debug|x64
+		{503EDD19-FA99-4C51-94BC-8722A44F14CC}.Release|ARM.ActiveCfg = Release|ARM
+		{503EDD19-FA99-4C51-94BC-8722A44F14CC}.Release|ARM.Build.0 = Release|ARM
+		{503EDD19-FA99-4C51-94BC-8722A44F14CC}.Release|Win32.ActiveCfg = Release|Win32
+		{503EDD19-FA99-4C51-94BC-8722A44F14CC}.Release|Win32.Build.0 = Release|Win32
+		{503EDD19-FA99-4C51-94BC-8722A44F14CC}.Release|x64.ActiveCfg = Release|x64
+		{503EDD19-FA99-4C51-94BC-8722A44F14CC}.Release|x64.Build.0 = Release|x64
+		{5C93DE4C-522A-4BC4-85A3-F0F8DA82C725}.Debug|ARM.ActiveCfg = Debug|ARM
+		{5C93DE4C-522A-4BC4-85A3-F0F8DA82C725}.Debug|ARM.Build.0 = Debug|ARM
+		{5C93DE4C-522A-4BC4-85A3-F0F8DA82C725}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5C93DE4C-522A-4BC4-85A3-F0F8DA82C725}.Debug|Win32.Build.0 = Debug|Win32
+		{5C93DE4C-522A-4BC4-85A3-F0F8DA82C725}.Debug|x64.ActiveCfg = Debug|Win32
+		{5C93DE4C-522A-4BC4-85A3-F0F8DA82C725}.Release|ARM.ActiveCfg = Release|ARM
+		{5C93DE4C-522A-4BC4-85A3-F0F8DA82C725}.Release|ARM.Build.0 = Release|ARM
+		{5C93DE4C-522A-4BC4-85A3-F0F8DA82C725}.Release|Win32.ActiveCfg = Release|Win32
+		{5C93DE4C-522A-4BC4-85A3-F0F8DA82C725}.Release|Win32.Build.0 = Release|Win32
+		{5C93DE4C-522A-4BC4-85A3-F0F8DA82C725}.Release|x64.ActiveCfg = Release|Win32
+		{D085C495-3253-4890-BB33-65A5A07905E2}.Debug|ARM.ActiveCfg = Debug|ARM
+		{D085C495-3253-4890-BB33-65A5A07905E2}.Debug|ARM.Build.0 = Debug|ARM
+		{D085C495-3253-4890-BB33-65A5A07905E2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{D085C495-3253-4890-BB33-65A5A07905E2}.Debug|Win32.Build.0 = Debug|Win32
+		{D085C495-3253-4890-BB33-65A5A07905E2}.Debug|x64.ActiveCfg = Debug|x64
+		{D085C495-3253-4890-BB33-65A5A07905E2}.Debug|x64.Build.0 = Debug|x64
+		{D085C495-3253-4890-BB33-65A5A07905E2}.Release|ARM.ActiveCfg = Release|ARM
+		{D085C495-3253-4890-BB33-65A5A07905E2}.Release|ARM.Build.0 = Release|ARM
+		{D085C495-3253-4890-BB33-65A5A07905E2}.Release|Win32.ActiveCfg = Release|Win32
+		{D085C495-3253-4890-BB33-65A5A07905E2}.Release|Win32.Build.0 = Release|Win32
+		{D085C495-3253-4890-BB33-65A5A07905E2}.Release|x64.ActiveCfg = Release|x64
+		{D085C495-3253-4890-BB33-65A5A07905E2}.Release|x64.Build.0 = Release|x64
+		{536B0DFD-FF34-4C6E-A377-B987CCDA6CE8}.Debug|ARM.ActiveCfg = Debug|ARM
+		{536B0DFD-FF34-4C6E-A377-B987CCDA6CE8}.Debug|ARM.Build.0 = Debug|ARM
+		{536B0DFD-FF34-4C6E-A377-B987CCDA6CE8}.Debug|Win32.ActiveCfg = Debug|Win32
+		{536B0DFD-FF34-4C6E-A377-B987CCDA6CE8}.Debug|Win32.Build.0 = Debug|Win32
+		{536B0DFD-FF34-4C6E-A377-B987CCDA6CE8}.Debug|x64.ActiveCfg = Debug|Win32
+		{536B0DFD-FF34-4C6E-A377-B987CCDA6CE8}.Release|ARM.ActiveCfg = Release|ARM
+		{536B0DFD-FF34-4C6E-A377-B987CCDA6CE8}.Release|ARM.Build.0 = Release|ARM
+		{536B0DFD-FF34-4C6E-A377-B987CCDA6CE8}.Release|Win32.ActiveCfg = Release|Win32
+		{536B0DFD-FF34-4C6E-A377-B987CCDA6CE8}.Release|Win32.Build.0 = Release|Win32
+		{536B0DFD-FF34-4C6E-A377-B987CCDA6CE8}.Release|x64.ActiveCfg = Release|Win32
+		{89CBB92E-7E52-4BB8-8C85-5C5F385BA0AF}.Debug|ARM.ActiveCfg = Debug|ARM
+		{89CBB92E-7E52-4BB8-8C85-5C5F385BA0AF}.Debug|ARM.Build.0 = Debug|ARM
+		{89CBB92E-7E52-4BB8-8C85-5C5F385BA0AF}.Debug|ARM.Deploy.0 = Debug|ARM
+		{89CBB92E-7E52-4BB8-8C85-5C5F385BA0AF}.Debug|Win32.ActiveCfg = Debug|x86
+		{89CBB92E-7E52-4BB8-8C85-5C5F385BA0AF}.Debug|Win32.Build.0 = Debug|x86
+		{89CBB92E-7E52-4BB8-8C85-5C5F385BA0AF}.Debug|Win32.Deploy.0 = Debug|x86
+		{89CBB92E-7E52-4BB8-8C85-5C5F385BA0AF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{89CBB92E-7E52-4BB8-8C85-5C5F385BA0AF}.Release|ARM.ActiveCfg = Release|ARM
+		{89CBB92E-7E52-4BB8-8C85-5C5F385BA0AF}.Release|ARM.Build.0 = Release|ARM
+		{89CBB92E-7E52-4BB8-8C85-5C5F385BA0AF}.Release|ARM.Deploy.0 = Release|ARM
+		{89CBB92E-7E52-4BB8-8C85-5C5F385BA0AF}.Release|Win32.ActiveCfg = Release|x86
+		{89CBB92E-7E52-4BB8-8C85-5C5F385BA0AF}.Release|Win32.Build.0 = Release|x86
+		{89CBB92E-7E52-4BB8-8C85-5C5F385BA0AF}.Release|Win32.Deploy.0 = Release|x86
+		{89CBB92E-7E52-4BB8-8C85-5C5F385BA0AF}.Release|x64.ActiveCfg = Release|Any CPU
+		{2E0BE23D-8D34-4D20-815C-5781C65FB2C0}.Debug|ARM.ActiveCfg = Debug|ARM
+		{2E0BE23D-8D34-4D20-815C-5781C65FB2C0}.Debug|ARM.Build.0 = Debug|ARM
+		{2E0BE23D-8D34-4D20-815C-5781C65FB2C0}.Debug|ARM.Deploy.0 = Debug|ARM
+		{2E0BE23D-8D34-4D20-815C-5781C65FB2C0}.Debug|Win32.ActiveCfg = Debug|x86
+		{2E0BE23D-8D34-4D20-815C-5781C65FB2C0}.Debug|Win32.Build.0 = Debug|x86
+		{2E0BE23D-8D34-4D20-815C-5781C65FB2C0}.Debug|Win32.Deploy.0 = Debug|x86
+		{2E0BE23D-8D34-4D20-815C-5781C65FB2C0}.Debug|x64.ActiveCfg = Debug|x64
+		{2E0BE23D-8D34-4D20-815C-5781C65FB2C0}.Debug|x64.Build.0 = Debug|x64
+		{2E0BE23D-8D34-4D20-815C-5781C65FB2C0}.Debug|x64.Deploy.0 = Debug|x64
+		{2E0BE23D-8D34-4D20-815C-5781C65FB2C0}.Release|ARM.ActiveCfg = Release|ARM
+		{2E0BE23D-8D34-4D20-815C-5781C65FB2C0}.Release|ARM.Build.0 = Release|ARM
+		{2E0BE23D-8D34-4D20-815C-5781C65FB2C0}.Release|ARM.Deploy.0 = Release|ARM
+		{2E0BE23D-8D34-4D20-815C-5781C65FB2C0}.Release|Win32.ActiveCfg = Release|x86
+		{2E0BE23D-8D34-4D20-815C-5781C65FB2C0}.Release|Win32.Build.0 = Release|x86
+		{2E0BE23D-8D34-4D20-815C-5781C65FB2C0}.Release|Win32.Deploy.0 = Release|x86
+		{2E0BE23D-8D34-4D20-815C-5781C65FB2C0}.Release|x64.ActiveCfg = Release|x64
+		{2E0BE23D-8D34-4D20-815C-5781C65FB2C0}.Release|x64.Build.0 = Release|x64
+		{2E0BE23D-8D34-4D20-815C-5781C65FB2C0}.Release|x64.Deploy.0 = Release|x64
+		{A7E1FDC6-EA86-4729-A345-E263F9BFA7B2}.Debug|ARM.ActiveCfg = Debug|ARM
+		{A7E1FDC6-EA86-4729-A345-E263F9BFA7B2}.Debug|ARM.Build.0 = Debug|ARM
+		{A7E1FDC6-EA86-4729-A345-E263F9BFA7B2}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A7E1FDC6-EA86-4729-A345-E263F9BFA7B2}.Debug|Win32.Build.0 = Debug|Win32
+		{A7E1FDC6-EA86-4729-A345-E263F9BFA7B2}.Debug|x64.ActiveCfg = Debug|x64
+		{A7E1FDC6-EA86-4729-A345-E263F9BFA7B2}.Debug|x64.Build.0 = Debug|x64
+		{A7E1FDC6-EA86-4729-A345-E263F9BFA7B2}.Release|ARM.ActiveCfg = Release|ARM
+		{A7E1FDC6-EA86-4729-A345-E263F9BFA7B2}.Release|ARM.Build.0 = Release|ARM
+		{A7E1FDC6-EA86-4729-A345-E263F9BFA7B2}.Release|Win32.ActiveCfg = Release|Win32
+		{A7E1FDC6-EA86-4729-A345-E263F9BFA7B2}.Release|Win32.Build.0 = Release|Win32
+		{A7E1FDC6-EA86-4729-A345-E263F9BFA7B2}.Release|x64.ActiveCfg = Release|x64
+		{A7E1FDC6-EA86-4729-A345-E263F9BFA7B2}.Release|x64.Build.0 = Release|x64
+		{DAD98F54-6A26-4976-A323-815A5956B29C}.Debug|ARM.ActiveCfg = Debug|ARM
+		{DAD98F54-6A26-4976-A323-815A5956B29C}.Debug|ARM.Build.0 = Debug|ARM
+		{DAD98F54-6A26-4976-A323-815A5956B29C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DAD98F54-6A26-4976-A323-815A5956B29C}.Debug|Win32.Build.0 = Debug|Win32
+		{DAD98F54-6A26-4976-A323-815A5956B29C}.Debug|x64.ActiveCfg = Debug|Win32
+		{DAD98F54-6A26-4976-A323-815A5956B29C}.Release|ARM.ActiveCfg = Release|ARM
+		{DAD98F54-6A26-4976-A323-815A5956B29C}.Release|ARM.Build.0 = Release|ARM
+		{DAD98F54-6A26-4976-A323-815A5956B29C}.Release|Win32.ActiveCfg = Release|Win32
+		{DAD98F54-6A26-4976-A323-815A5956B29C}.Release|Win32.Build.0 = Release|Win32
+		{DAD98F54-6A26-4976-A323-815A5956B29C}.Release|x64.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{29E18FDB-FA86-4A07-8B07-5B23989BBCD1} = {2C6581F1-A43F-47B4-B37F-B93D23193E20}
+		{EE3F585C-A2F7-42E7-B195-EE524EFAFD98} = {29E18FDB-FA86-4A07-8B07-5B23989BBCD1}
+		{055DE68D-397E-4344-9DF9-E057DF521D3E} = {29E18FDB-FA86-4A07-8B07-5B23989BBCD1}
+		{06685605-C801-49F8-97B3-7C4EF92C321A} = {29E18FDB-FA86-4A07-8B07-5B23989BBCD1}
+		{5630D0AC-FE63-4FB0-A156-75185648C199} = {2C6581F1-A43F-47B4-B37F-B93D23193E20}
+		{FA48D526-824F-48BE-8E6E-0E88894B3DC4} = {5630D0AC-FE63-4FB0-A156-75185648C199}
+		{503EDD19-FA99-4C51-94BC-8722A44F14CC} = {5630D0AC-FE63-4FB0-A156-75185648C199}
+		{5C93DE4C-522A-4BC4-85A3-F0F8DA82C725} = {5630D0AC-FE63-4FB0-A156-75185648C199}
+		{2980309B-3B5A-48F1-A802-847AD53D807A} = {2C6581F1-A43F-47B4-B37F-B93D23193E20}
+		{36D2162B-6B84-42D1-BF61-B92685A21ADE} = {2980309B-3B5A-48F1-A802-847AD53D807A}
+		{D085C495-3253-4890-BB33-65A5A07905E2} = {2980309B-3B5A-48F1-A802-847AD53D807A}
+		{536B0DFD-FF34-4C6E-A377-B987CCDA6CE8} = {2980309B-3B5A-48F1-A802-847AD53D807A}
+		{34E64444-5701-4B46-B174-C20AAD9A7613} = {2C6581F1-A43F-47B4-B37F-B93D23193E20}
+		{7F4E321F-459B-4927-AE3D-A4B57000E274} = {34E64444-5701-4B46-B174-C20AAD9A7613}
+		{89CBB92E-7E52-4BB8-8C85-5C5F385BA0AF} = {2193AAA3-C798-4108-9D96-58705EB060F0}
+		{2E0BE23D-8D34-4D20-815C-5781C65FB2C0} = {E394FA81-A84B-4C35-8023-862D509D1AB2}
+		{6FE0C298-22FD-4F1D-886D-D72BF9E33AF9} = {2C6581F1-A43F-47B4-B37F-B93D23193E20}
+		{125F5593-0A67-4484-BF43-568036FC59C6} = {6FE0C298-22FD-4F1D-886D-D72BF9E33AF9}
+		{A7E1FDC6-EA86-4729-A345-E263F9BFA7B2} = {6FE0C298-22FD-4F1D-886D-D72BF9E33AF9}
+		{DAD98F54-6A26-4976-A323-815A5956B29C} = {6FE0C298-22FD-4F1D-886D-D72BF9E33AF9}
+	EndGlobalSection
+EndGlobal

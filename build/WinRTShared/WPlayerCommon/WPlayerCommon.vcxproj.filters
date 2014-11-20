@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\COM">
+      <UniqueIdentifier>{44df1cc5-3d53-4c22-8b78-95ccfe0675f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MF">
+      <UniqueIdentifier>{2b59182b-b651-47d1-a602-dceaf151564d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\WinRT">
+      <UniqueIdentifier>{7bf43ccb-70be-4a11-84e2-ac39f81d22cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LOG">
+      <UniqueIdentifier>{59c65e21-2137-46c0-b78f-950b338adc0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\COM">
+      <UniqueIdentifier>{216b4e25-1fa5-411c-8dc3-de794eb2e7ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LOG">
+      <UniqueIdentifier>{e1ebd8ff-1cd1-460b-bc40-6662752b061f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\WinRT">
+      <UniqueIdentifier>{1de478f5-8723-429e-a189-ea5beba57a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MF">
+      <UniqueIdentifier>{102a4972-de7c-4e03-b936-051d7c6481ff}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\wplayercommon\ComRegHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wplayercommon\IsBadAccessPtr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wplayercommon\CActivationFactory.cpp">
+      <Filter>Source Files\COM</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wplayercommon\dbg_log_output.cpp">
+      <Filter>Source Files\LOG</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wplayercommon\Win32ThreadEmulation.cpp">
+      <Filter>Source Files\WinRT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wplayercommon\MFAsyncQueueThread.cpp">
+      <Filter>Source Files\MF</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\wplayercommon\legacy_win32.cpp">
+      <Filter>Source Files\WinRT</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\wplayercommon\ComRegHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wplayercommon\com_core_def.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wplayercommon\IsBadAccessPtr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wplayercommon\stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wplayercommon\Win32ThreadEmulation.h">
+      <Filter>Header Files\WinRT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wplayercommon\WinRTHStringRef.h">
+      <Filter>Header Files\WinRT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wplayercommon\WinRTWorkItemHandlerProc.h">
+      <Filter>Header Files\WinRT</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wplayercommon\ComInterfaceList.h">
+      <Filter>Header Files\COM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wplayercommon\dbg_log_output.h">
+      <Filter>Header Files\LOG</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wplayercommon\MFAsyncCallback.h">
+      <Filter>Header Files\MF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wplayercommon\MFAsyncQueueThread.h">
+      <Filter>Header Files\MF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wplayercommon\MFObjectActivate.h">
+      <Filter>Header Files\MF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wplayercommon\MFSyncLock.h">
+      <Filter>Header Files\MF</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wplayercommon\CActivationFactory.h">
+      <Filter>Header Files\COM</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\wplayercommon\legacy_win32.h">
+      <Filter>Header Files\WinRT</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

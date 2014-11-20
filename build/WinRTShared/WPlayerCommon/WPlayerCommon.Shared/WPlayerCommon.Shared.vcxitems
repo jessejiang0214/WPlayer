@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{ee3f585c-a2f7-42e7-b195-ee524efafd98}</ItemsProjectGuid>
+    <ItemsRootNamespace>WPlayerCommon</ItemsRootNamespace>
+    <ItemsProjectName>WPlayerCommon.Shared</ItemsProjectName>
+    <CodeSharingProject>248F659F-DAC5-46E8-AC09-60EC9FC95053</CodeSharingProject>
+    <ItemsSccProjectName>SAK</ItemsSccProjectName>
+    <ItemsSccAuxPath>SAK</ItemsSccAuxPath>
+    <ItemsSccLocalPath>SAK</ItemsSccLocalPath>
+    <ItemsSccProvider>SAK</ItemsSccProvider>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\CActivationFactory.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\dbg_log_output.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\IsBadAccessPtr.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\legacy_win32.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\MFAsyncQueueThread.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\Win32ThreadEmulation.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\MediaTypeConvert.cpp">
+      <PrecompiledHeader>Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\stdafx.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\CActivationFactory.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\ComInterfaceList.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\com_core_def.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\dbg_log_output.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\IsBadAccessPtr.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\legacy_win32.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\MFAsyncCallback.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\MFAsyncQueueThread.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\MFObjectActivate.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\MFSyncLock.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\stdafx.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\Win32ThreadEmulation.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\WinRTHStringRef.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\WinRTWorkItemHandlerProc.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\MediaTypeConvert.h" />
+  </ItemGroup>
+</Project>

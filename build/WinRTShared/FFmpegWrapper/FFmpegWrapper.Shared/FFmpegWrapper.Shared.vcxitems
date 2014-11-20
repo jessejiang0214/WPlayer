@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{fa48d526-824f-48be-8e6e-0e88894b3dc4}</ItemsProjectGuid>
+    <ItemsRootNamespace>FFmpegWrapper</ItemsRootNamespace>
+    <ItemsProjectName>FFmpegWrapper.Shared</ItemsProjectName>
+    <CodeSharingProject>248F659F-DAC5-46E8-AC09-60EC9FC95053</CodeSharingProject>
+    <ItemsSccProjectName>SAK</ItemsSccProjectName>
+    <ItemsSccAuxPath>SAK</ItemsSccAuxPath>
+    <ItemsSccLocalPath>SAK</ItemsSccLocalPath>
+    <ItemsSccProvider>SAK</ItemsSccProvider>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\AVPacketComWrapper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_aac_adts_payload_extradata.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_common_utils.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_file_io.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_format_decoder.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_format_parser.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_format_wrapper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_h264_extera_data_annexb.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_io_stream.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_aac_adts_payload_extradata.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_common_utils.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_file_io.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_format_decoder.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_format_parser.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_format_wrapper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_h264_extera_data_annexb.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_io_stream.cpp" />
+  </ItemGroup>
+</Project>

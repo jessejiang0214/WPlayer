@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_aac_adts_payload_extradata.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_common_utils.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_file_io.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_format_decoder.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_format_parser.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_format_wrapper.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_h264_extera_data_annexb.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_io_stream.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\AVPacketComWrapper.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_aac_adts_payload_extradata.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_common_utils.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_file_io.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_format_decoder.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_format_parser.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_format_wrapper.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_h264_extera_data_annexb.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\FFmpegWrapper\ffmpeg_io_stream.cpp" />
+  </ItemGroup>
+</Project>

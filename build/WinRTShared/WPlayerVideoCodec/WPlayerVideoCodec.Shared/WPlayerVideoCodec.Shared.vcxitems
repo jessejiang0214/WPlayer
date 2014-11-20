@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <ItemsProjectGuid>{125f5593-0a67-4484-bf43-568036fc59c6}</ItemsProjectGuid>
+    <ItemsRootNamespace>WPlayerVideoCodec</ItemsRootNamespace>
+    <ItemsProjectName>WPlayerVideoCodec.Shared</ItemsProjectName>
+    <CodeSharingProject>248F659F-DAC5-46E8-AC09-60EC9FC95053</CodeSharingProject>
+    <ItemsSccProjectName>SAK</ItemsSccProjectName>
+    <ItemsSccAuxPath>SAK</ItemsSccAuxPath>
+    <ItemsSccLocalPath>SAK</ItemsSccLocalPath>
+    <ItemsSccProvider>SAK</ItemsSccProvider>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories);$(MSBuildThisFileDirectory)</AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ProjectCapability Include="SourceItemsFromImports" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerVideoCodec\dllmain.cpp">
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>StdAfx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerVideoCodec\WPlayerVideoCodec.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerVideoCodec\StdAfx.cpp">
+      <PrecompiledHeader>Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerVideoCodec\WPlayerVideoCodec.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerVideoCodec\StdAfx.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerVideoCodec\targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Midl Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerVideoCodec\WPlayerVideoCodec.idl" />
+  </ItemGroup>
+</Project>

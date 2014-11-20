@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\IsBadAccessPtr.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\dbg_log_output.cpp">
+      <Filter>LOG</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\CActivationFactory.cpp">
+      <Filter>COM</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\Win32ThreadEmulation.cpp">
+      <Filter>WinRTWrapperAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\MFAsyncQueueThread.cpp">
+      <Filter>MF</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\legacy_win32.cpp">
+      <Filter>WinRTWrapperAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\stdafx.cpp" />
+    <ClCompile Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\MediaTypeConvert.cpp">
+      <Filter>MF</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\com_core_def.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\IsBadAccessPtr.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\stdafx.h" />
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\dbg_log_output.h">
+      <Filter>LOG</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\CActivationFactory.h">
+      <Filter>COM</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\ComInterfaceList.h">
+      <Filter>COM</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\WinRTWorkItemHandlerProc.h">
+      <Filter>WinRTWrapperAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\WinRTHStringRef.h">
+      <Filter>WinRTWrapperAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\Win32ThreadEmulation.h">
+      <Filter>WinRTWrapperAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\MFSyncLock.h">
+      <Filter>MF</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\MFAsyncCallback.h">
+      <Filter>MF</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\MFAsyncQueueThread.h">
+      <Filter>MF</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\MFObjectActivate.h">
+      <Filter>MF</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\legacy_win32.h">
+      <Filter>WinRTWrapperAPI</Filter>
+    </ClInclude>
+    <ClInclude Include="$(MSBuildThisFileDirectory)..\..\..\..\src\WPlayerCommon\MediaTypeConvert.h">
+      <Filter>MF</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="LOG">
+      <UniqueIdentifier>{6b9236a7-64a4-4dce-8e32-05e39717f8cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COM">
+      <UniqueIdentifier>{aacdab6f-7e1d-4cdc-9c44-e082b502973e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="WinRTWrapperAPI">
+      <UniqueIdentifier>{28ca73c4-4f07-4d69-952f-558658f1b8a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MF">
+      <UniqueIdentifier>{16e83328-4e38-494e-91a6-20c947852342}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
